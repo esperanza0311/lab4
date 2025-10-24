@@ -25,6 +25,15 @@ public class Student{
 
 
    public  static void main(String[] args) {
+        Student stu1=new Student();
+        stu1.Info();
+        stu1.name="İlkerinooooo";
+        stu1.age=21;
+        stu1.isJunior=true;
+        stu1.gender="m";
+        stu1.Info();
+
+
 
     }
 }
